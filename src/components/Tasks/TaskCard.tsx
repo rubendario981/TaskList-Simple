@@ -16,8 +16,10 @@ const TaskCard = ({ task, deleteTask }: Props) => {
 			<div className="d-flex justify-content-around mt-4">
 				<button
 					onClick={() => deleteTask(task.id)}
-					className="btn btn-primary btn-sm px-4">Delete</button>
-				<button className="btn btn-success btn-sm px-4">Edit</button>
+					className="btn btn-primary btn-sm px-4">
+						Delete
+				</button>
+					
 			</div>
 		</div>
 	)

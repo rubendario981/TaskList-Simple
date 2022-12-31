@@ -7,7 +7,7 @@ export const NavBar = () => {
 					<img src={Logo} alt="Logo react" />
 				</a>
 				<h4 className='text-white pt-2'>React using Typescript</h4>
-				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+				{/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
 				<div className="collapse navbar-collapse" id="navbarColor01">
@@ -36,12 +36,8 @@ export const NavBar = () => {
 								<a className="dropdown-item" href="#">Separated link</a>
 							</div>
 						</li>
-					</ul>
-					<form className="d-flex">
-						<input className="form-control me-sm-2" type="search" placeholder="Search" />
-						<button className="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-					</form>
-				</div>
+					</ul>					
+				</div> */}
 			</div>
 		</nav>
 	)
